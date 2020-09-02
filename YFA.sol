@@ -1,8 +1,5 @@
 pragma solidity ^0.6.7;
 
-   // Telegram: https://t.me/yfdaifinance
-   // Website : https://yfdai.finance
-   
 contract Owned {
     modifier onlyOwner() {
         require(msg.sender==owner);
